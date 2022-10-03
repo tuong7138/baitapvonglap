@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="funcc()">play</button>
+    
+</body>
+</html>
+<script>
+    function funcc(){
+        let a=+prompt('nhap muon doan trong khoang nao');
+        let b=Math.floor(Math.random() * a);
+        let c=prompt('nhap so muon chon');
+        for(c;c!=b;){
+            alert('moi chon lai');
+            c=prompt('nhap so muon chon');
+        }
+        alert('chuc mung')
+    }
+</script>
